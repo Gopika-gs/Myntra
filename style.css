@@ -1,0 +1,85 @@
+body{
+  overflow-x: hidden;
+ 
+}
+#search {
+  position: absolute;
+  width: 350px;
+  border: none;
+  height: 40px;
+  border: none;
+  border-radius: 3px;
+  left: 250px;
+  background-color: #f5f5f6;
+}
+
+i {
+  color: black;
+  display: block;
+  margin: 5px;
+  padding: 4px;
+  position: relative;
+}
+
+strong {
+  font-size: small;
+  color: black;
+  text-align: center;
+  display: block;
+  margin: 3px;
+}
+
+#slide {
+  height: 400px;
+  margin-top: 40px;
+  
+}
+
+.carousel-indicators li {
+  width:7px;
+  height: 7px;
+  border-radius: 100%;
+  background-color: #7E818C;
+  bottom:40px;
+  
+}
+
+
+#invite {
+  
+  background-image: linear-gradient(#E1EAFF,#F8F9FF);
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 63px;
+}
+
+
+#invite img{
+margin-left: 400px;
+}
+#btn1{
+  padding-right: 150px; 
+}
+
+.card{
+  padding-top: 15px;
+  border: none;
+
+}
+.card-deck{
+  margin-left: 40px;
+  margin-right: 40px;
+
+}
+h3[class="display-5"]{
+  padding-top: 40px;
+  padding-right: 700px;
+  letter-spacing: 2px;
+  padding-bottom:40px; 
+  margin-left: 30px;
+}
+
+.navbar img{
+  margin-left: 20px;
+}
