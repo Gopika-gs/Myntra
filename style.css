@@ -30,7 +30,7 @@ strong {
 }
 
 #slide {
-  height: 400px;
+  height: 150px;
   margin-top: 40px;
   
 }
@@ -40,7 +40,7 @@ strong {
   height: 7px;
   border-radius: 100%;
   background-color: #7E818C;
-  bottom:40px;
+  bottom:10px;
   
 }
 
@@ -56,8 +56,12 @@ strong {
 
 
 #invite img{
-margin-left: 400px;
-}
+  margin-left: 400px;
+  width:50px;
+  height:60px;
+  }
+
+
 #btn1{
   padding-right: 150px; 
 }
@@ -74,12 +78,18 @@ margin-left: 400px;
 }
 h3[class="display-5"]{
   padding-top: 40px;
-  padding-right: 700px;
+  padding-right: 300px;
+  padding-left: 300px;
   letter-spacing: 2px;
   padding-bottom:40px; 
-  margin-left: 30px;
+  text-align: center;
 }
 
 .navbar img{
   margin-left: 20px;
+}
+
+.row  img{
+  width: 350px;
+  
 }
