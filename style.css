@@ -59,6 +59,7 @@ strong {
   padding-top: 10px;
   padding-bottom: 10px;
   height: 63px;
+  
 }
 
 
@@ -68,9 +69,14 @@ strong {
   height:60px;
   }
 
+#invite p{
+  position:relative;
+}
   
+
 #btn1{
   padding-right: 150px; 
+  
 }
 
 .card{
@@ -91,13 +97,17 @@ h3[class="display-5"]{
   padding-bottom:40px; 
   text-align: center;
   text-shadow: 1px 1px 1px rgb(85, 108, 238),
-  2px 2px 1px rgb(113, 52, 226);
+  2px 2px 1px rgb(154, 112, 231);
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size:40px;
 }
 
 .navbar img{
   margin-left: 20px;
+}
+
+.navbar{
+  position:sticky;
 }
 
 footer{ 
