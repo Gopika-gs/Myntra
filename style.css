@@ -13,6 +13,10 @@ body{
   background-color: #f5f5f6;
 }
 
+#banner{
+  margin: 50px;
+}
+
 i {
   color: black;
   display: block;
@@ -44,6 +48,9 @@ strong {
   
 }
 
+.carousel-indicators{
+  bottom: -50px;
+}
 
 #invite {
   
@@ -61,7 +68,7 @@ strong {
   height:60px;
   }
 
-
+  
 #btn1{
   padding-right: 150px; 
 }
@@ -72,8 +79,8 @@ strong {
 
 }
 .card-deck{
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 30px;
+  margin-right: 30px;
 
 }
 h3[class="display-5"]{
@@ -83,13 +90,33 @@ h3[class="display-5"]{
   letter-spacing: 2px;
   padding-bottom:40px; 
   text-align: center;
+  text-shadow: 1px 1px 1px rgb(85, 108, 238),
+  2px 2px 1px rgb(113, 52, 226);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size:40px;
 }
 
 .navbar img{
   margin-left: 20px;
 }
 
-.row  img{
-  width: 350px;
+footer{ 
+  background-color: rgb(244, 246, 247);
+  text-align: center;
+  font-size:small;
+}
+
+h5 a{
+  color: black;
   
+}
+
+.list-unstyled a{
+  color:#635f5f;
+}
+#media a{
+  margin-left: 5px;
+}
+.footer-heading h5{
+font-size: small;
 }
