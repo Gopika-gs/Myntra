@@ -13,9 +13,6 @@ body{
   background-color: #f5f5f6;
 }
 
-#banner{
-  margin: 50px;
-}
 
 i {
   color: black;
@@ -33,44 +30,24 @@ strong {
   margin: 3px;
 }
 
-#slide {
+.slide {
   height: 150px;
+  margin-bottom: 110px;
   margin-top: 40px;
-  
 }
 
 .carousel-indicators li {
   width:7px;
   height: 7px;
   border-radius: 100%;
-  background-color: #7E818C;
-  bottom:10px;
-  
+  background-color: #7E818C; 
 }
 
-.carousel-indicators{
-  bottom: -50px;
+.carousel-indicators {
+    bottom: -250px;
 }
-
-#invite {
-  
-  background-image: linear-gradient(#E1EAFF,#F8F9FF);
-  width: 100%;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  height: 63px;
-}
-
-
-#invite img{
-  margin-left: 400px;
-  width:50px;
-  height:60px;
-  }
-
-  
-#btn1{
-  padding-right: 150px; 
+.carousel-indicators li, .carousel-indicators li.active {
+  margin: 0px 7px !important;
 }
 
 .card{
@@ -84,20 +61,23 @@ strong {
 
 }
 h3[class="display-5"]{
-  padding-top: 40px;
+  padding-top: 100px;
   padding-right: 300px;
-  padding-left: 300px;
+  padding-left: 30px;
   letter-spacing: 2px;
   padding-bottom:40px; 
-  text-align: center;
   text-shadow: 1px 1px 1px rgb(85, 108, 238),
-  2px 2px 1px rgb(113, 52, 226);
+  2px 2px 1px rgb(154, 112, 231);
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size:40px;
 }
 
 .navbar img{
   margin-left: 20px;
+}
+
+.navbar{
+  position:sticky;
 }
 
 footer{ 
@@ -120,3 +100,9 @@ h5 a{
 .footer-heading h5{
 font-size: small;
 }
+
+
+
+
+ 
+  
