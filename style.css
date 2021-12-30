@@ -32,7 +32,7 @@ strong {
 
 .slide {
   height: 150px;
-  margin-bottom: 110px;
+  margin-bottom: 90px;
   margin-top: 40px;
 }
 
@@ -45,9 +45,18 @@ strong {
 
 .carousel-indicators {
     bottom: -250px;
+    
+}
+.carousel-inner{
+  margin-bottom: -50px;
 }
 .carousel-indicators li, .carousel-indicators li.active {
-  margin: 0px 7px !important;
+  margin: 0px 7px;
+}
+
+.cardsection
+{
+  margin-top: 40px;
 }
 
 .card{
@@ -61,15 +70,13 @@ strong {
 
 }
 h3[class="display-5"]{
-  padding-top: 100px;
-  padding-right: 300px;
-  padding-left: 30px;
+  margin-top: 40px;
+  margin-bottom:40px; 
+  margin-right: 300px;
+  margin-left: 30px;
   letter-spacing: 2px;
-  padding-bottom:40px; 
-  text-shadow: 1px 1px 1px rgb(85, 108, 238),
-  2px 2px 1px rgb(154, 112, 231);
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size:40px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size:30px;
 }
 
 .navbar img{
