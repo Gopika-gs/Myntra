@@ -58,6 +58,8 @@ strong {
     margin-top: 40px;
 }
 
+
+
 .card {
     padding-top: 15px;
     border: none;
@@ -75,7 +77,7 @@ h3[class="display-5"] {
     margin-left: 30px;
     letter-spacing: 2px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 30px;
+    font-size:3vw;
 }
 
 .navbar img {
