@@ -58,6 +58,8 @@ strong {
     margin-top: 40px;
 }
 
+
+
 .card {
     padding-top: 15px;
     border: none;
@@ -75,8 +77,19 @@ h3[class="display-5"] {
     margin-left: 30px;
     letter-spacing: 2px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 30px;
+    font-size:3vw;
 }
+
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
 
 .navbar img {
     margin-left: 20px;
