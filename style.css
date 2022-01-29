@@ -78,20 +78,38 @@ h3[class="display-5"] {
     font-size: 25px;
 }
 
-.dropdown-content a:hover {
-    background-color:#F8F9FA;
-   
-}
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
 
-.dropdown-item h{
-    color:red;
-}
-
-.dropdown:hover .dropdown-content {
+  .dropdown a{
+      text-decoration: none;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
     display: block;
-    border:0px;
-    outline:0px;
-}
+  }
+  
+  .dropdown-content a:hover {
+      background-color: #ddd;
+    }
+  
+  .dropdown:hover .dropdown-content {
+      display: block;
+    }
 
 .navbar img {
     margin-left: 20px;
@@ -99,39 +117,6 @@ h3[class="display-5"] {
 
 .navbar {
     position: sticky;
-}
-
-.nav-link a {
-    float: left;
-    display: block;
-    color: black;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    border-bottom: 3px solid transparent;
-}
-
-.topnav1 a:hover {
-    border-bottom: 4px solid rgb(236, 54, 54);
-}
-
-.topnav2 a:hover {
-    border-bottom: 4px solid rgb(248, 9, 196);
-}
-.topnav3 a:hover {
-    border-bottom: 4px solid rgb(238, 112, 39);
-}
-
-.topnav4 a:hover {
-    border-bottom: 4px solid rgb(230, 180, 17);
-}
-
-.topnav5 a:hover {
-    border-bottom: 4px solid rgba(7, 138, 57, 0.932);
-}
-
-.topnav6 a:hover {
-    border-bottom: 4px solid rgb(155, 3, 109);
 }
 
 footer {
