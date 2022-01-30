@@ -81,26 +81,38 @@ h3[class="display-5"] {
   .dropdown {
     position: relative;
     display: inline-block;
+
   }
 
   .dropdown a{
       text-decoration: none;
   }
   
-  .dropdown-content {
+.dropdown-content {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
-    min-width: 160px;
+    min-width: 234px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    text-align: left;
+    padding-bottom: 20px;
+
   }
   
+  .dropdown-content h6{
+      color: #ee5f73;
+  } 
   .dropdown-content a {
     color: black;
-    padding: 12px 16px;
     text-decoration: none;
     display: block;
+    font-size:13px;
+    word-wrap: normal;
+    padding: 10px 16px 0px;
+    line-height: 25px;
+    font-weight: 500;
+    padding-left: 22px;
   }
   
   .dropdown-content a:hover {
