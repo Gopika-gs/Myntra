@@ -1,26 +1,89 @@
 body {
     overflow-x: hidden;
 }
-.navbar{
-    height: 13%;
-    box-shadow: 0px 5px 29px -7px rgba(0,0,0,0.15);
+.navbar-brand img{
+    height: 44px;
+    padding-left: 20px;
 }
 
-.logo{
-    width: 6%;
+.dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+.nav-link{
+    color: black !important;
+}
+
+.dropdown-menu.megamenu.midmenu.show {
+    right: 0;
+}
+.dropdown-menu.show {
+    right: 0;
+}
+nav{
+    box-shadow: 4px 6px 9px 0px rgba(56,47,47,0.75);
+}
+
+.form-inline .searchbar{
+    margin-left: 10%;
+}
+
+.megamenu {
+	padding: 20px 0px;
+	position: absolute;
+	max-width: 1093px;
+    height: 556%;
+    border: 0px;
+    right:0;
+    left:0;
+    margin-left: 85px;
+    top:70px;
+}
+
+.megamenu li{
+    line-height: 2.2;
+}
+
+.navbar-nav{
     margin-left: 2%;
-}
-.navbar-brand{
-    margin-right: -55rem;
+    margin-right: 1%;
 }
 
-.navbar-light .navbar-nav .nav-link {
-    color: #000000;
-    padding-right: -0.5rem;
-    padding-left: 0.5rem;
-    font-size: small;
+@media (max-width: 767px){
+    nav.navbar{
+     max-height: 100vh;
+     overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    }
+  }
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav .nav-link {
+      padding-right: 2.5rem;
+      padding-left: 0.5rem;
+  }
+}
+.megamenu ul li {
+    list-style: none;
+    font-size: 14px;
+    color: black; 
+   
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
 }
 
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.megamenu a{
+    color: black;
+    text-decoration: none;
+}
+
+.megamenu h6{
+    color: black;
+}
 .slide {
     margin-bottom: 90px;
     margin-top: 40px;
@@ -70,52 +133,6 @@ h3[class="display-5"] {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 25px;
 }
-
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-
-  
-.dropdown a{
-      text-decoration: none;
-  }
-  
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 76vw;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    text-align: left;
-    padding-bottom: 20px;
-
-  }
-  
-  .dropdown-content h6{
-      color: #ee5f73;
-  } 
-  .dropdown-content a {
-    color: black;
-    text-decoration: none;
-    display: block;
-    font-size:13px;
-    word-wrap: normal;
-    padding: 10px 16px 0px;
-    line-height: 25px;
-    font-weight: 500;
-    padding-left: 22px;
-  }
-  
-  .dropdown-content a:hover {
-      background-color: #ddd;
-    }
-  
-  .dropdown:hover .dropdown-content {
-      display: block;
-    }
-
 
 footer {
     background-color: rgb(244, 246, 247);
